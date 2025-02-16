@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #021526;
+    font-family: sans-serif;
+    width: auto;
+
+}
+
+.dashboard{
+    display: flex;
+    height: 102vh;
+}
+.sidebar{
+    background-color: #03346E;
+    padding: 20px;
+}
+.profile{
+    text-align: center;
+}
+.profile h1{
+    color: #6EACDA;
+    font-size: 30PX;
+}
+.profile p {
+    color: #E2E2B6;
+    font-weight: 700;
+    font-size: 15px;
+}
+.nav-menu a{
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    color: #e7eded;
+    padding: 20px;
+    margin-left: 35px;
+}
+.nav-menu a:hover{
+    background-color: #7ee4bb;
+    border-radius: 10px;
+    color: #021526;
+}
+.main-content{
+    margin: 25px;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.dsb{
+    color: #B1F0F7;
+    padding-right: 70px;
+    
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: 700px;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.search-bar{
+    display: flex;
+    gap: 10px;
+}
+.search-bar input{
+    width: 300px;
+    padding: 10px 18px;
+    border-radius: 80px;
+    border: 2px solid #B1F0F7;
+}
+.search-bar img{
+    height: 30px;
+    width: 30px;
+}
+.search-btn{
+    background-color: rgb(0, 0, 0);
+    border-radius: 30%;
+}
+
+.search-btn:hover{
+    background-color: rgb(255, 255,255);
+    cursor: pointer;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #7ee4bb;
+    color: black;
+    font-weight: 700;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.stat{
+    background-color: #03346E;
+    width: 25%;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.stat:hover{
+    transform: translateY(-5px);
+}
+.stat h3{
+    color: white;
+    font-size: 14px;
+}
+.stat p{
+    color: #E2E2B6;
+    font-size: 14px;
+}
+
+.skills-section{
+    margin-bottom: 20px;
+    background-color: #03346E;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+.skills-section h3{
+    margin-top: 20px;
+}
+.skills div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.progress{
+    display: flex;
+    width: 100%;
+    height: 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 10;
+}
+
+.progress::-webkit-progress-bar{
+    background-color: #f5f8ed;
+    border-radius: 10px;
+}
+
+.project-section{
+    margin-bottom: 20px;
+    background-color: #03346E;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+}
+
+.projects-section{
+    margin-bottom: 20px;
+    background-color: #03346E;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.project-div{
+    display: flex;
+    gap: 5%;
+}
+
+.card{
+    display: flex;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 18px;
+    line-height: 28px;
+    height: 120px;
+    width: 320px;
+    background-color: #021526;
+}
+.card .status{
+    border: 1px solid #6EACDA;
+    border-radius: 20px;
+    padding-left: 10px;
+    width: 100px;
+    background-color: #6EACDA;
+    padding-top:
+}
+.card .status-1{
+    border: 1px solid #08a315;
+    border-radius: 20px;
+    padding-left: 10px;
+    width: 100px;
+    background-color: #08a315;
+    padding-top:
+}
+.card .status-2{
+    border: 1px solid #eb4b7d;
+    border-radius: 20px;
+    padding-left: 10px;
+    width: 100px;
+    background-color: #eb4b7d;
+    padding-top:
+}
+.card:hover{
+    background-color: rgb(196, 100, 43);
+}
+
+
+/* //profile page */
+.dp{
+    display: flex;
+    
+}
+.aboutus{
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    color: #E2E2B6;
+    width: 30%;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
