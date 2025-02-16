@@ -12,7 +12,7 @@ body{
 
 .dashboard{
     display: flex;
-    height: 102vh;
+    height: 100vh;
 }
 .sidebar{
     background-color: #03346E;
