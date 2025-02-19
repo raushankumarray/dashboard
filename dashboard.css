@@ -12,7 +12,7 @@ body{
 
 .dashboard{
     display: flex;
-    height: 100vh;
+    height: 102vh;
 }
 .sidebar{
     background-color: #03346E;
@@ -239,19 +239,92 @@ body{
 }
 
 
-/* //profile page */
-.dp{
-    display: flex;
+
+
+
+/* Certificate Page */
+.certificate h1{
+color: #e7eded;
+padding-bottom: 20px;
+
+}
+.certificates{
+    background-color: indigo;
+    height: 50vh;
+    width: 25%;
+    border: #e7eded solid 1px;border-radius: 20px;
+    padding: 20px;
+    color: burlywood;
+    text-decoration: none;
+}
+.certificates:hover{
+    background: #000;
+    cursor: pointer;
+    color: blanchedalmond;
+}
+.cert-button{
+    align-self: flex-end;
+    height: 35px;
+    width: 170px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration-color: blue;
+    margin-top: 20px ;
+    margin-left: 40%;
     
 }
-.aboutus{
+.cert-button:hover{
+    background:rgb(237, 125, 40);
+    transform: translateY(-5px);
+    color: #B1F0F7;
+    
+}
+.ceti-sec{
     display: flex;
-    gap: 30px;
-    background-color: black;
-    color: #E2E2B6;
-    width: 30%;
+    gap: 10%;
+}
+
+
+/* Profile page */
+.profile-section{
+    color: #f5f8ed;
+    width: 100%;
+   
+}
+.profiles{
+    margin-top:  20px;
+    border: 2px dotted rgb(231, 219, 219);
     border-radius: 20px;
     padding: 20px;
-    margin-left: 20px;
-    text-align: left;
+}
+.pro1{
+    display: flex;
+    margin-top: 20px;
+}
+.pro3{
+    border: 2px dotted rgb(86, 0, 223);
+    border-radius: 30px;
+    padding: 30px;
+}
+.skill-section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.skill-1{
+    display: flex;
+
+    border: 2px dotted rgb(123, 233, 19) ;
+    border-radius: 20px;
+    padding: 20px;
+    width: 25%;
+    height: 150px;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+.sec-frontend-logo{
+    justify-content: flex-start;
+    padding-top: 10px;
+    
 }
